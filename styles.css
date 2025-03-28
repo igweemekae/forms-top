@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0;
+  display: flex;
+}
+section {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.form-a {
+  width: 34vw;
+  height: max-content;
+  margin-right: 0;
+  background-color: red;
+}
+
+.form-b {
+  background-color: aliceblue;
+  width: 66vw;
+  height: 100%;
+  margin-left: 0;
+  margin: 0;
+}
+
+#piclog {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c1 {
+  background-color: #d9dfc6;
+  padding: 50px 50px;
+}
+
+.c2 {
+  margin: 0;
+  background-color: #eff3ea;
+  padding: 50px 50px;
+}
+.block {
+  margin: 10px;
+  flex: 1;
+}
+input {
+  width: 100%;
+}
+
+.c2-span {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex: 1; /* added */
+}
+
+.c3 {
+  background-color: #fff2c2;
+  padding: 50px 50px;
+  height: max-content;
+}
